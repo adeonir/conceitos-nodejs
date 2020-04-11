@@ -9,7 +9,6 @@ app.use(express.json())
 app.use(cors())
 
 const repositories = []
-const likes = 0
 
 app.get('/repositories', (request, response) => {
   return response.json(repositories)
@@ -17,7 +16,7 @@ app.get('/repositories', (request, response) => {
 
 app.post('/repositories', (request, response) => {
   const { title, url, techs } = request.body
-  const repository = { id: uuid(), title, url, techs, likes }
+  const repository = { id: uuid(), title, url, techs, likes: 0 }
 
   repositories.push(repository)
 
