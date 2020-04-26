@@ -1,6 +1,25 @@
+<h1 align="center">
+  <img src=".assets/logo-gostack.svg" atl="GoStack Bootcamp" />
+</h1>
+
 <h3 align="center">
-  Desafio: Conceitos do Node.js
+  Desafio 2: Conceitos do Node.js
 </h3>
+
+<p align="center">
+  Desafio desenvolvido durante o <a href="https://rocketseat.com.br/gostack">Bootcamp GoStack</a> da Rocketseat.
+  <br />
+  <br />
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#instalação-e-execução">Instalação e execução</a>
+</p>
+
+## Tecnologias
+
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [Insomnia](https://insomnia.rest/)
 
 ## Sobre o desafio
 
@@ -36,3 +55,30 @@ Para esse desafio temos os seguintes testes:
 - **`should be able to give a like to the repository`**: Para que esse teste passe, a aplicação deve permitir que um repositório com o id informado possa receber likes. O valor de likes deve ser incrementado em 1 a cada requisição, e como resultado, retornar um json contendo o repositório com o número de likes atualizado.
 
 - **`should not be able to like a repository that does not exist`**: Para que esse teste passe, deve validar na rota de like se o id do repositório enviado pela url existe ou não. Caso não exista, retornar um erro com status `400`.
+
+## Instalação e execução
+
+```bash
+# Clone esse repositório
+$ git clone https://github.com/adeonir/gostack-conceitos-nodejs conceitos-nodejs
+
+# Entre no diretório
+$ cd conceitos-nodejs
+
+# Installe as dependências
+$ yarn
+
+# Rode a aplicação
+$ yarn dev
+
+# Rode os testes
+$ yarn test
+```
+
+## Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Made with ♥️ by Adeonir Kohl
