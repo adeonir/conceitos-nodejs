@@ -65,7 +65,7 @@ $ git clone https://github.com/adeonir/gostack-conceitos-nodejs conceitos-nodejs
 # Entre no diretório
 $ cd conceitos-nodejs
 
-# Installe as dependências
+# Instale as dependências
 $ yarn
 
 # Rode a aplicação
